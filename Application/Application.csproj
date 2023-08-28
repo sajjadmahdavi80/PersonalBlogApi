@@ -9,6 +9,7 @@
   <ItemGroup>
     <Folder Include="Business\" />
     <Folder Include="Common\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>

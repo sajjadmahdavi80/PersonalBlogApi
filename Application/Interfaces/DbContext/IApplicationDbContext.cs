@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Application.Interfaces.DbContext;
-internal interface IApplicationDbContext
+public interface IApplicationDbContext
 {
+
+    public Task<int> SaveChangesAsync(CancellationToken cancellationToken);
 }
